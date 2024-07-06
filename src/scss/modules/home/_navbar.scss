@@ -1,0 +1,41 @@
+nav{
+    font-family: "Inter",  sans-serif;
+    a{
+        text-decoration: none;
+        color: $nav-color;
+    }
+    .after-a{
+        position: relative;
+    }
+    .after-a:after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        background-color: red;
+        height: 2px;
+        width: 0;
+        transition: 0.3s;
+    }
+    .after-a:hover:after{
+        width: 100%;
+    }
+    .menu-icon{
+        color: $nav-color
+    }
+    .bi-dot{
+        position: absolute;
+        top: 10px;
+        left: 90%;
+    }
+    .book-btn{
+        padding: 1vh 4vh;
+        border: none;
+        background-color: #ce1212;
+        color: white;
+        border-radius: 15px;
+    }
+    .book-btn:hover{
+        background-color: hsla(0, 84%, 44%, 0.9);
+    }
+}

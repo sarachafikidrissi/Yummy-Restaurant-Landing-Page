@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+<body>
+    <!-- Navbar -->
+     <nav id="home" class="d-flex justify-content-evenly align-items-center py-3">
+        <div class="logo position-relative">
+            <h1>Yummy<span class="text-nav-hover-color"><i class="bi bi-dot fw-lighter"></i></span></h1>
+        </div>
+        <div class="navigation">
+            <ul class="list-unstyled d-flex gap-5 m-0">
+                <li class="after-a"><a href="home">Home</a></li>
+                <li class="after-a"><a href="about">About</a></li>
+                <li class="after-a"><a href="menu">Menu</a></li>
+                <li class="after-a"><a href="events">Events</a></li>
+                <li class="after-a"><a href="chefs">Chefs</a></li>
+                <li class="after-a"><a href="gallery">Gallery</a></li>
+                <li class="after-a"><a class="nav-link dropdown-toggle text-nav-color" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul></li>
+                <li class="after-a"><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="book-btn">Book a Table</button>
+            <div class="menu-icon fs-1 d-none"><i class="bi bi-list"></i></div>
+        </div>
+     </nav>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

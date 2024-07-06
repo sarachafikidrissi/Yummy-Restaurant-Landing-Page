@@ -1,0 +1,17 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+
+
+
+$nav-color: #7f7f90;
+$nav-hover-color: #ce1212;
+
+$mycolors: ("nav-color": $nav-color, "nav-hover-color": $nav-hover-color);
+
+$theme-colors: map-merge($mycolors, $theme-colors);
+
+
+$spacer: 1vh;
+$spacers: (0: 0);
+@for $i from 1 to 100
+    {$spacers: map-merge($spacers, ($i: $i * $spacer));}
