@@ -14,12 +14,12 @@
         </div>
         <div class="navigation">
             <ul class="list-unstyled d-flex gap-5 m-0">
-                <li class="after-a"><a href="home">Home</a></li>
-                <li class="after-a"><a href="about">About</a></li>
-                <li class="after-a"><a href="menu">Menu</a></li>
-                <li class="after-a"><a href="events">Events</a></li>
-                <li class="after-a"><a href="chefs">Chefs</a></li>
-                <li class="after-a"><a href="gallery">Gallery</a></li>
+                <li class="after-a"><a href="#home">Home</a></li>
+                <li class="after-a"><a href="#about">About</a></li>
+                <li class="after-a"><a href="#menu">Menu</a></li>
+                <li class="after-a"><a href="#events">Events</a></li>
+                <li class="after-a"><a href="#chefs">Chefs</a></li>
+                <li class="after-a"><a href="#gallery">Gallery</a></li>
                 <li class="after-a"><a class="nav-link dropdown-toggle text-nav-color" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
@@ -28,7 +28,7 @@
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul></li>
-                <li class="after-a"><a href="contact">Contact</a></li>
+                <li class="after-a"><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div>
@@ -36,7 +36,8 @@
             <div class="menu-icon fs-1 d-none"><i class="bi bi-list"></i></div>
         </div>
      </nav>
-     <section class="hero-section py-lg-10 ps-lg-15">
+    <!-- Hero Section -->
+     <section class="hero-section py-lg-10 ps-lg-10">
         <div class="her-section-content">
             <h1 class="title">Enjoy Your Healthy Delicious Food</h1>
             <p>We are team of talented designers making websites with Bootstrap</p>
@@ -48,6 +49,35 @@
         <div class="hero-section-image">
             <img src="./public/images/hero-img.png" alt="">
         </div>
+     </section>
+
+    <!-- About Section -->
+     <section id="about" class="about-section py-lg-10 px-lg-10">
+        <div class="heading">
+            <h2 class="text-nav-color">ABOUT US</h2>
+            <p class="">LEARN MORE <span class="text-nav-hover-color">ABOUT US</span>
+            <p>
+        </div>
+        <div class="about-content">
+            <div class="left-side d-flex flex-column gap-4">
+                <img src="./public/images/about.jpg" alt="">
+                <div class="d-flex flex-column align-items-center border border-dark py-2 border-4 call-info ">
+                    <h3 class="text-dark-gray fw-bold">Book a Table</h3>
+                    <p class="text-nav-hover-color">+1 5589 55488 55</p>
+                </div>
+            </div>
+            <div class="right-side">
+                <p class="text-cold-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <ul class="about-list list-unstyled">
+                    <li><i class="bi bi-check-circle-fill"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                    <li><i class="bi bi-check-circle-fill"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <img src="./public/images/about-2.jpg" alt="">
+            </div>
+        </div>
+
      </section>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>

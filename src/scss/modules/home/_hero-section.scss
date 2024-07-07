@@ -46,7 +46,6 @@
     }
     a:before{
         content:"";
-        // display: inline-block;
         margin-right: 10px;
         background: url('../../../../public/images/play.svg') no-repeat;
         background-size: contain;
@@ -58,13 +57,13 @@
         img{
             width: 90%;
         }
-        animation: bounce 5s infinite linear;
+        animation: bounce 3s infinite linear;
         position: relative;
     }
     @keyframes bounce {
-        0% {transform: translateY(-1vh);}
-        50% {transform: translateY(1vh);}
-        100% {transform: translateY(-1vh);}
+        0% {transform: translateY(-2vh);}
+        50% {transform: translateY(2vh);}
+        100% {transform: translateY(-2vh);}
     }
 
 }
