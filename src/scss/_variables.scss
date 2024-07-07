@@ -13,9 +13,10 @@ $nav-hover-color: #ce1212;
 $light-background-color: #f2f2f2;
 $dark-gray: #37373f;
 $cold-gray: #909294;
+$white-color: white;
 
 
-$mycolors: ("nav-color": $nav-color, "nav-hover-color": $nav-hover-color, "light-background-color": $light-background-color, "dark-gray": $dark-gray, "cold-gray": $cold-gray);
+$mycolors: ("nav-color": $nav-color, "nav-hover-color": $nav-hover-color, "light-background-color": $light-background-color, "dark-gray": $dark-gray, "cold-gray": $cold-gray, "white-color": $white-color);
 
 $theme-colors: map-merge($mycolors, $theme-colors);
 
