@@ -1,0 +1,56 @@
+.menu{
+    h2{
+        font-size: 13px;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading p{
+        font-family: $heading-font;
+        font-size: 48px;
+    }
+    .time{
+        position: relative;
+    }
+    .time:after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        right: -5px;
+        width: 110%;
+        text-align: center;
+        height: 2px;
+        background-color: $nav-color;
+    }
+    .time:hover:after{
+        background-color: $nav-hover-color;
+    }
+    .active .time:after{
+        background-color: $nav-hover-color;
+    }
+    .menu-items ul{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-items ul>li button, .menu-items ul>li .active{
+        background-color: white !important;
+        color: #37373f;
+        font-size: 18px;
+    }
+    .dish-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        h4, .price{
+            font-size: 24px;
+        }
+        p{color: #909193;}
+        .price{
+            font-weight: 700;
+        }
+    }
+
+}

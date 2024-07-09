@@ -49745,7 +49745,7 @@ textarea.form-control-lg {
   font-family: amantic;
   font-size: 64px;
   color: #37373f;
-  padding: 0 20vw 0 0;
+  padding: 0 30vw 0 0;
 }
 .hero-section p {
   color: #606264;
@@ -50004,6 +50004,62 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu h2, .menu .h2 {
+  font-size: 13px;
+}
+.menu .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .heading p {
+  font-family: amantic;
+  font-size: 48px;
+}
+.menu .time {
+  position: relative;
+}
+.menu .time:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: -5px;
+  width: 110%;
+  text-align: center;
+  height: 2px;
+  background-color: #7f7f90;
+}
+.menu .time:hover:after {
+  background-color: #ce1212;
+}
+.menu .active .time:after {
+  background-color: #ce1212;
+}
+.menu .menu-items ul {
+  display: flex;
+  justify-content: center;
+}
+.menu .menu-items ul > li button, .menu .menu-items ul > li .active {
+  background-color: white !important;
+  color: #37373f;
+  font-size: 18px;
+}
+.menu .dish-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+.menu .dish-details h4, .menu .dish-details .h4, .menu .dish-details .price {
+  font-size: 24px;
+}
+.menu .dish-details p {
+  color: #909193;
+}
+.menu .dish-details .price {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=app.css.map */
